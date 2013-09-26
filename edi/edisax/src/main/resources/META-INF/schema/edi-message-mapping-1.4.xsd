@@ -90,6 +90,7 @@ The escape attribute specifies a character that can be used before a delimiter t
 						<xs:element ref="segmentGroup"/>
 						<xs:element ref="segment"/>
 					</xs:choice>
+					<xs:attribute name="ignoreUnmappedSegments" type="xs:boolean" use="optional" default="false"/>
 				</xs:extension>
 			</xs:complexContent>
 		</xs:complexType>
